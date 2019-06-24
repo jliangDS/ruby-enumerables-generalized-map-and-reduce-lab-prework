@@ -18,6 +18,6 @@ def reduce(source_array, starting_point = 0)
     end
   yield(new, starting_point)
   else
-    yield(true, false)
+    yield() #fix 
   end
 end
